@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nahid3828 - Welcome</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            max-width: 600px;
+            text-align: center;
+            animation: fadeIn 0.5s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+        }
+        
+        .star-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin: 10px;
+            text-decoration: none;
+        }
+        
+        .star-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .features {
+            text-align: left;
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .features h3 {
+            color: #333;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        .feature-item {
+            color: #555;
+            padding: 8px 0;
+            display: flex;
+            align-items: center;
+        }
+        
+        .feature-item:before {
+            content: "✨";
+            margin-right: 10px;
+            font-size: 1.2em;
+        }
+        
+        .star-count {
+            color: #ffc107;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        
+        footer {
+            margin-top: 30px;
+            color: #999;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⭐ Nahid3828</h1>
+        <p class="subtitle">Welcome to our awesome project!</p>
+        
+        <button class="star-button" onclick="alert('Please visit GitHub to star! 🌟')">
+            ⭐ Star on GitHub
+        </button>
+        
+        <div class="features">
+            <h3>Why You'll Love This Project:</h3>
+            <div class="feature-item">Clean and well-organized code</div>
+            <div class="feature-item">Easy to understand and extend</div>
+            <div class="feature-item">Production-ready templates</div>
+            <div class="feature-item">Active development & support</div>
+            <div class="feature-item">Great documentation</div>
+        </div>
+        
+        <p>
+            <strong>Current Stars:</strong> 
+            <span class="star-count">Help us grow! ⭐</span>
+        </p>
+        
+        <footer>
+            <p>Made with ❤️ by Nahid3828</p>
+            <p><a href="https://github.com/Nahid3828/Nahid3828" style="color: #667eea;">View on GitHub</a></p>
+        </footer>
+    </div>
+</body>
+</html>
